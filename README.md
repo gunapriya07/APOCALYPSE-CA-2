@@ -18,7 +18,7 @@ when we touch the earth with  help of the mouse the game will start when earth t
 
  HTML,CSS,JAVASCRIPT
 
-# INSPIRED  GAME From:
+# INSPIRED  GAME FROM:
 
 NANDINI, from the google. she did
 
