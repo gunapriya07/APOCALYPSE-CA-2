@@ -20,10 +20,7 @@ when we touch the earth with  help of the mouse the game will start when earth t
 
 # INSPIRED  GAME FROM:
 
-NANDINI, from the google. she did
-
-
-
+NANDINI, from the google. i just take the logic of the game from her game
 
 # OUTPUT
 
