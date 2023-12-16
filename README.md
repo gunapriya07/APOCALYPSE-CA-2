@@ -14,7 +14,7 @@ after click on cross the game will start
 
 when we touch the earth with  help of the mouse the game will start when earth touch the gem  the game will end if you reach the vaccine then you  win the game
 
-# TEXT STACK:
+# TECH STACK:
 
  HTML,CSS,JAVASCRIPT
 
