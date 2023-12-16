@@ -16,7 +16,7 @@ function load_images(){
     win.src = "Audio/won.wav";
     
     lose = new Audio();
-    lose.src = "Audio/dumb-ways-to-die.mp3";
+    lose.src = "Audio/dead.mp3";
     
     
 }
