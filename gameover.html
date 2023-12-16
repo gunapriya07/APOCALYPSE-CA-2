@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOCALYPSE</title>
+    <link rel="stylesheet" href="gameover.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>APOCALYPSE</h1>
+        <h3 id="text"></h3>    
+        <button id="playagainbtn">PLAY AGAIN</button>
+        <button id="score-box"class="scorebtn">SCORE:<span id="score-board"></span></button>
+        
+    </div>
+    
+</body>
+<script>
+    var playagainbtn=document.getElementById("playagainbtn");
+    playagainbtn.onclick=()=>{
+    window.location.href="./game.html"
+    }
+    var backgroundSound=new Audio("Audio/HEROICCC(chosic.com).mp3")
+    backgroundSound.play()
+    backgroundSound.loop=true;
+
+    var scoreBoard = document.getElementById('score-board')
+    var score = localStorage.getItem("score")
+    scoreBoard.innerText=score;
+
+    var win = localStorage.getItem("win")
+    var text = document.getElementById('text')
+    var winAudio=new Audio("./Audio/won.wav")
+    var lose=new Audio("./Audio/dumb-ways-to-die.mp3")
+
+    if(win==0){
+        text.innerText="You Loss.......!🥲😥😢"
+        scoreBoard.innerText="0";
+        lose.play();
+        lose.loop=true;
+        
+    }
+    else if(win==1){
+        text.innerText="You Won.......!🥳🤩💪"
+        scoreBoard.innerText=score;
+        winAudio.play();
+        winAudio.loop=true;
+
+    }
+
+</script>
+</html>

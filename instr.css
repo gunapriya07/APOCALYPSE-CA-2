@@ -1,0 +1,65 @@
+body {
+    background: url("./Assets/bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+  }
+  #info {
+    background-color: grey;
+    width: 15cm;
+    height: 7cm;
+    margin-left: 10cm;
+    margin-top: -2cm;
+    line-height: 1.5cm;
+    border: 2px solid black;
+    border-top-right-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+    font-size: 24px;
+    border-style: solid;
+    color: white;
+  }
+  #cross {
+    height: 1.5cm;
+    width: 1.5cm;
+    position: relative;
+    left: 9.3cm;
+    top:-0.9cm;
+  }
+  h3{
+      color: white;
+      text-align: center;
+      position: relative;
+      top:0px;
+      
+  }
+  ul{
+    font-size: 20px;
+    position: relative;
+    bottom:40px;
+  }
+  @media all and (max-width:550px){
+    #info{
+      margin-left: 0.7cm;
+      margin-top: -1cm;
+      width:10cm;
+      height: 8.5cm;
+      font-size:15px;
+    }
+    h1{
+      font-size: 30px;
+      position: relative;
+      right:20px;
+    }
+    #cross{
+      position: relative;
+      left:3px;
+      top: 1px;
+    }
+
+
+  }

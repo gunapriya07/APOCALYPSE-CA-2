@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APOCALYPSE</title>
+    <link rel="stylesheet" href="instr.css">
+  </head>
+  <body>
+    <h1>APOCALYPSE</h1>
+   
+    <img src="./Assets/letter-x.png" id="cross" alt="" />
+    <div id="info">
+      <h3>INSTRUTIONS:</h3>
+      <ul>
+        <li>When you touch the earth with mouse you can start the game.</li>
+        <li>If you touch the gem you loss the game</li>
+        <li>If you reach the vaccine you will win the game</li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    var cross=document.getElementById("cross");
+    cross.onclick=()=>{
+    window.location.href="./game.html"
+    }
+    var backgroundSound=new Audio("Audio/HEROICCC(chosic.com).mp3")
+    backgroundSound.play()
+    backgroundSound.loop=true;
+  </script>
+</html>

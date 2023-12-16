@@ -1,0 +1,70 @@
+body{
+    background: url("Assets/bg.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(100%);
+}
+form{
+    text-align: center;
+}
+#name{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top:90px;
+}
+.text{
+    position: relative;
+    top:80px;
+    width:200px;
+    height: 30px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    /* position: relative;
+    top:70px; */
+    
+}
+#submitbtn{
+    text-align: center;
+    background-color: green;
+    border:none;
+    width:150px;
+    height: 60px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    position:relative;
+    top:150px;
+    /* left:20px; */
+}
+@media all and (max-width:550px) {
+    h1{
+        font-size: 30px;
+    }
+    /* #playButton{
+        position: relative;
+        left:100px;
+    
+        
+    } */
+    #name{
+        font-size: 20px;
+        position: relative;
+        bottom:3px;
+    }
+    .text{
+        width:100px;
+        height: 20px;
+        position: relative;
+        bottom:2px;
+    }
+    #submitbtn{
+        width:100px;
+        height:30px;
+        font-size: 15px;
+    }
+}
