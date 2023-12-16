@@ -21,3 +21,12 @@ NANDINI, from the google. she did
 
 
 
+# OUTPUT
+
+<img width="954" alt="Screenshot 2023-12-16 114034" src="https://github.com/gunapriya07/APOCALYPSE-CA-2/assets/147796209/8f05c6a6-d1f2-42b9-ad6f-a1a3995db0ef">
+
+
+
+
+
+
