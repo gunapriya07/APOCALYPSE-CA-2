@@ -1,8 +1,8 @@
-#NAME OF THE GAME:
+# NAME OF THE GAME:
 
  APOCALYPSE
 
-#ABOUT THE GAME:
+# ABOUT THE GAME:
 
 When you click on the Play Now button the game will start
 
@@ -12,11 +12,11 @@ it show the instrution page
 
 after click on cross the game will start
 
-when we touch the earth with mouse the game will start when you touch the gems the game will end if you reach the vaccine then you will  win the game
+when we touch the earth with  help of the mouse the game will start when earth touch the gem  the game will end if you reach the vaccine then you  win the game
 
-#INSPIRED THE GAME FORM:
+# INSPIRED  GAME From:
 
-NANDINI 
+NANDINI, from the google. 
 
 
 
